@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/bck.png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="app-wrap">
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+    </header>
+    <main>
+      <section class="location">
+        <div class="city">UNKNOWN</div>
+        <div class="date">UNKNOWN</div>
+        <div class="weather te">UNKNOWN</div>
+      </section>
+      <p class="btx">Temperature <h7 class="stx">in °c</h7></p>
+      <div class="current">
+        <section class="temp">#<span>°c</span></section>
+        <section>
+          <p class="hi-low te">#°c / #°c</p>
+          <p class="hi-low" >high / low</p>
+        </section>
+      </div>
+    </main>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
