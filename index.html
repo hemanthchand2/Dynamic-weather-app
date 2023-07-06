@@ -17,11 +17,15 @@
     </header>
     <main>
       <section class="location">
-        <div class="city">UNKNOWN</div>
-        <div class="date">UNKNOWN</div>
+        <div class="city brd">LOCATING AUTOMATICALLY...</div>
+        <div class="date brd">CALCULATING...</div>
         <div class="weather te">UNKNOWN</div>
       </section>
-      <p class="btx">Temperature <h7 class="stx">in °c</h7></p>
+      <p class="btx brd">Temperature <h7 class="stx brd">in °C</h7></p>
+      <label class="switch">
+        <input id="cb" type="checkbox" onclick ="conv()"/>
+        <span class="slider"></span>  
+      </label>
       <div class="current">
         <section class="temp">#<span>°c</span></section>
         <section>
@@ -32,5 +36,5 @@
     </main>
   </div>
   <script src="index.js"></script>
-</body>
+</body> 
 </html>
