@@ -7,7 +7,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     background-size: cover;
-    background-image: url('./images/sunny.jpg');
+    background-image: url('./images/bck.png');
     transition: 1s ease-in-out;
     background-repeat: no-repeat;
     background-position: center;
