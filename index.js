@@ -79,23 +79,23 @@ function setBackground(weatherCondition) {
 
   if (weatherCondition === "Sunny") {
     preloadImage("images/rainy.jpg", () => {
-      body.style.backgroundImage = "url('./images/sunny.jpg')";
+      body.style.backgroundImage = "url('/images/sunny.jpg')";
     });
   } else if (weatherCondition === "Clouds") {
     preloadImage("images/rainy.jpg", () => {
-      body.style.backgroundImage = "url('./images/cloudy.jpg')";
+      body.style.backgroundImage = "url('/images/cloudy.jpg')";
     });
   } else if (weatherCondition === "Haze"|| weatherCondition === "Smoke") {
     preloadImage("images/rainy.jpg", () => {
-      body.style.backgroundImage = "url('./images/haze.jpg')";
+      body.style.backgroundImage = "url('/images/haze.jpg')";
     });
   }else if (weatherCondition === "Rain"|| weatherCondition === "Drizzle") {
     preloadImage("images/rainy.jpg", () => {
-      body.style.backgroundImage = "url('./images/rainy.jpg')";
+      body.style.backgroundImage = "url('/images/rainy.jpg')";
     });
   }else if (weatherCondition === "Clear") {
     preloadImage("images/rainy.jpg", () => {
-      body.style.backgroundImage = "url('./images/clear.jpg')";     
+      body.style.backgroundImage = "url('/images/clear.jpg')";     
     });
   }else {
     console.log("error");
